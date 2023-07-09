@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-seri;
+}
+
+body, html{
+    background-color: #fff;
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
+.card{
+    width: 500px;
+    padding: 50px 40px;
+    border-radius: 10px;
+    background-color: olive;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prevButton{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.nextButton{
+    margin-left: 50px;
+    cursor: pointer;
+}
