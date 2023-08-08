@@ -3,11 +3,11 @@
     let count = 0
 
     buttons.forEach(function(button){
-        button.addEventListener("click",function(argument){
-            if(button.classList.contains('.prevButton')){
+        button.addEventListener("click",function(){
+            if(button.classList.contains('prevButton')){
                 count--
             }
-            else if(button.classList.contains('.nextButton')){
+            else if(button.classList.contains('nextButton')){
                 count++
             }
 
@@ -24,7 +24,7 @@
             }
         })
     })
-})
+})()
 
 
 
